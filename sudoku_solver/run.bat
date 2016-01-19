@@ -1,0 +1,1 @@
+python -i sudo.py <test_data/input.txt> test_data/output.txt
