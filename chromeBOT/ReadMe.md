@@ -1,6 +1,5 @@
 #ChromeBOT
 :frog: A python bot that plays dinosaur game hidden in chrome browsers.
-Works only on windows and with 32 bit version of python3.
 
 * PIL (**python image library**) and win32 module are required, install them using pip.
 * 
