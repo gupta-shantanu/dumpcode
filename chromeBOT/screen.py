@@ -3,11 +3,11 @@ from win32 import win32api
 import time as tk
 import os
 def screenshot():
-    box = (470,220,700,222)
+    box = (470,209,700,211)
     im = ImageGrab.grab(box)
     im=im.convert('RGB')
     
-##    im.save(os.getcwd() + '\\full_snap__' + str(int(time.time())) +
+##    im.save(os.getcwd() + '\\full_snap__  ' + str(int(time.time())) +
 ##'.png', 'PNG')
     return im
  

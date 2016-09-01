@@ -6,7 +6,7 @@
  ```
  pip install PIL
  
- pip install win32
+ pip install pypiwin32
  ```
 * *snapshot.py* included in project, it takes screenshot of the screen and saves it as PNG file.
 
