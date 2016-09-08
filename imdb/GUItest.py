@@ -7,7 +7,7 @@ class App:
     def __init__(self):
         self.master = Tk()
         
-        self.master.title("MineSweeper  shantanu@programmer.net")
+        self.master.title("Get Ratings  shantanu@programmer.net")
         frame=Frame(self.master)
         frame.pack()
         
@@ -29,7 +29,7 @@ class App:
         self.L1 = Label(frame, text="Width")
         self.L1.pack()
         
-        self.E1.insert(100, 11)
+        
         self.master.mainloop()
         
     def button1(self):

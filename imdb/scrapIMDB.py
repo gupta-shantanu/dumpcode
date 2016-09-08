@@ -11,7 +11,7 @@ class Movie:
     def getPoster():
         return tkimage.getImage(self.url)
     def __str__(self):
-        return self.name+" "+self.rating+" "+self.url
+        return self.name+" "+self.rating
 
         
 def getMovie(movie):
@@ -30,8 +30,8 @@ def getMovie(movie):
     rating=soup.find("span",{"itemprop":"ratingValue"})
     
     image=soup.find("img",{"itemprop":"image"})
-    url= image['src']
     try:
+        url= image['src']
         return Movie(name.text,rating.text,url)
     except:
         return Movie()
@@ -44,4 +44,7 @@ if __name__=='__main__':
         
         if movie=="exit":
             break
-        print(getMovie(movie))
+        response=getMovie(movie)
+        print("Found movie:",response.name)
+        print("Rating:",response.rating)
+
