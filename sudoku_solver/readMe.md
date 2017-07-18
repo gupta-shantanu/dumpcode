@@ -1,7 +1,7 @@
-#Sudoku_Solver
+# Sudoku_Solver
 >Its a python script that solves sudoku puzzle using brute force technique.
 
-##TEST
+## TEST
 * You can directly test the code by runing given batch file <run.bat> or as follows:
 ```
 ~$ python -i sudo.py <input.txt> out.txt
